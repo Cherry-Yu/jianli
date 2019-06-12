@@ -1,0 +1,106 @@
+@charset "utf-8";
+/* CSS Document */
+body{margin:0 auto;padding:0 auto;}
+.shang{
+	background: url( ../images/shang.jpg) no-repeat;
+	height: 12px;
+	margin-top: 20px;
+	margin-left:240px;
+}
+.zhong{
+	background: url( ../images/zhong.jpg)  repeat-y;
+	height: auto;
+	margin-left:240px;
+	padding-bottom: 20px;
+}
+.xia{
+	background: url( ../images/xia.jpg) no-repeat;
+	height: 12px;
+	margin-left:240px;
+}
+.top{
+	width: 960px;
+	
+	}
+.zhong .top{
+	margin-left: 10px;
+}
+.top p{font-size: 18px;color:#000;font-weight: bold;}
+.top h1{
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 20px;
+	text-indent: 26px;
+
+}
+.top img{padding:0;margin: 0;}
+.zhong{
+	}
+.zhong .middle{
+	font-size: 14px;
+	width: 960px;
+	margin-left: 10px;
+}
+.middle .left{
+	width: 278px;
+	padding:0 10px;
+	float: left;
+}
+.aihao p1{font-size: 16px;	background-color: #A1B8FF;}
+.aihao h1{
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 20px;
+	text-indent: 26px;
+	padding-bottom: 2px;
+}
+.pingjia ul{list-style-position: inside}
+.pingjia{padding-bottom: 20px;}
+ p1{padding-top:2px;	background-color: #A1B8FF;padding-bottom: 2px;}
+.pingjia h1{	font-size: 14px;
+	font-weight: normal;
+	line-height: 20px;
+	text-indent: 26px;	padding-bottom: 16px;}
+.xingqu h1{	font-size: 14px;
+	font-weight: normal;
+	line-height: 20px;
+	text-indent: 26px;	padding-bottom: 16px;}
+.nengli h1{	font-size: 14px;
+	font-weight: normal;
+	line-height: 20px;
+	text-indent: 26px;	padding-bottom: 16px;}
+.jiazhiguan h1{	font-size: 14px;
+	font-weight: normal;
+	line-height: 20px;
+	text-indent: 26px;	padding-bottom: 16px;}
+.zhongjian{
+	width: 278px;
+	margin-left: 320px;
+	margin-top: 20px;
+	}
+.zhongjian h2{ padding-left:30px;font-size: 16px;background-color:#4D7CFD;}
+.zhongjian p2{
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 20px;
+	text-indent: 26px;
+}
+.middle .right{float: right;width: 278px;
+padding-right:30px;}
+.juece h3{padding-left:30px;font-size: 16px;background-color:#4D7CFD;
+}
+.juece p3{
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 20px;
+	text-indent: 26px;
+}
+.jiankong{height: 250px; padding-top: 20px; overflow:auto;}
+.jiankong h4{padding-left:30px;font-size: 16px;background-color:#4D7CFD;
+}
+.jiankong p4{
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 20px;
+	text-indent: 26px;
+}

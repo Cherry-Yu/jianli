@@ -1,0 +1,248 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: "宋体";
+	margin-left:auto;
+	margin-right:auto;
+	}
+/*最顶部*/
+.dingbu{
+	clear:both;
+	width:100%;
+	height: 56px;
+	font-size:18px;
+	color:#FFFFFF;
+	position: fixed;
+	background-color: #434343;
+}
+.dingbu ul{
+	list-style: none;
+	margin-left: 156px;
+}
+.dingbu ul li{
+	float: left;
+	line-height:58px;
+	margin-left: 100px;
+	display: block;
+}
+.dingbu ul a{
+	color:#9C9C9C;
+	text-decoration:none;
+	font-weight: bold; 
+	padding:24px 0;
+	}
+.dingbu ul li a span{
+	padding: 14px 6px 20px 6px;
+	background: none;
+}
+.dingbu ul a:hover{
+	color:#FFFFFF;
+	background: url( ../images/zhu_bj_03.jpg) no-repeat center;
+	}
+.dingbu ul li a:active {color:#fff; background:url( ../images/zhu_bj_03.jpg) no-repeat center;}
+.dingbu ul li a:active span {color:#fff;   background:url( ../images/zhu_bj_03.jpg) no-repeat center;}
+.sousuokuang{float: right;
+margin-top: 8px;}
+.anniu{
+		background: url( ../images/sousuo_03.jpg) no-repeat;
+		width:50px;
+		height: 28px;
+	margin-top: 8px;
+	}
+td{
+		height: 28px;
+	}
+
+/*中间内容*/
+.container{
+	clear:both;
+	width:100%;
+}
+/*绿图*/
+.container .header{
+	clear:both;
+	width:100%;
+	text-align: center;
+}
+/*主导航*/
+.container .nav{
+	height: 38px;
+	background-color: #dfdfdf;
+}
+.nav ul{
+	list-style: none;
+	padding-left:300px;
+}
+.nav ul li{
+	margin-right:10px;
+	float:left;
+	line-height: 38px;
+	padding-right:20px;
+	padding-left:20px;
+	background:url(../images/daohang-bj_03.jpg) ;
+	height:36px;
+}
+.nav ul a{
+	color:#000000;
+	text-decoration:none;
+	display: block; padding:0 2px;
+	}
+.nav ul a:hover{
+	background:url( ../images/daohang-bj_003.jpg) no-repeat;
+	}
+/*中间大部分*/
+.neirong{
+	width: 960px;margin-top: 20px;
+	margin-left:auto;
+	margin-right:auto;
+}
+/*左边*/
+.leftside{
+	width:156px;
+	float:left;
+}
+/*导航上部分*/
+.leftside .shang{
+	height:32px;
+	}
+/*导航中间部分*/
+.leftside ul{
+	list-style: none;
+	color:#9C9C9C;
+}
+.leftside ul li{
+	height:34px;
+	font-size: 18px;
+	color:#FFFFFF;
+	padding-left:40px;
+	padding-top:12px;
+	background:url( ../images/shudaohang_05.gif) no-repeat;
+}
+.leftside ul a{
+	color:#FFFFFF;
+	text-decoration:none;
+	}
+.leftside ul a:hover{
+	font-weight:bold;
+	}
+/*导航下部分*/
+.leftside .xia{
+	height:46px;
+	background:url( ../images/shudaohang_08.jpg) no-repeat;
+	}
+/*右部分*/
+.neirong .rightside{
+	width:780px;
+	float:right;
+	margin-bottom:40px;
+	}
+.rightside .shang{
+	background: url( ../images/neirong-bj_03.gif) no-repeat;
+	height:10px;
+	}
+.rightside .zhong{
+	background: url( ../images/neirong-bj_03.jpg) repeat-y;
+	height:450px;
+	}
+.rightside .zhong .zuo1{
+	width:390px;
+	float:left;
+	margin-top:10px;
+	margin-left:10px;
+	}
+.zuo1 p{
+	font-size: 18px;
+	background: url( ../images/jibenxinxi.gif) no-repeat;
+	padding-left:86px;
+	padding-top:10px;
+    line-height: 23px;
+	height: 46px;
+	font-weight:bold;
+	}
+.zuo1 h1{
+	font-size: 18px;
+	background: url( ../images/jiaoyubeijing.gif) no-repeat;
+	padding-left:86px;
+	padding-top:12px;
+    line-height: 23px;
+	height: 46px;
+	}
+.zuo1 h2{
+	font-size: 18px;
+	background: url( ../images/zhuanyejineng.gif) no-repeat;
+	padding-left:86px;
+	padding-top:10px;
+    line-height: 23px;
+	height: 46px;
+	}
+.zuo1 img{
+	margin-right:6px;
+	margin-left:12px;
+	}
+
+.rightside .zhong .you1{
+	width:370px;
+	float:right;
+	margin-top:10px;
+	margin-left:10px;
+	}
+.you1 h3{
+	font-size: 18px;
+	background: url( ../images/huojiang.gif) no-repeat;
+	padding-left:86px;
+	padding-top:10px;
+    line-height: 23px;
+	height: 46px;
+	}
+.you1 h4{
+	font-size: 18px;
+	background: url( ../images/ziwopingjia.jpg) no-repeat;
+	padding-left:86px;
+	padding-top:10px;
+    line-height: 23px;
+	height: 46px;
+	}
+.you1 p{
+	font-size:14px;
+	text-indent:26px;
+	line-height:20px;
+	}
+.rightside .xia{
+	background: url( ../images/neirong-bj_06.jpg) no-repeat;
+	height:12px;
+	}
+.huidingbu{
+	position:fixed;
+	right:2px;
+	bottom:2px;
+	height:80px;
+	width: 80px;
+	padding-bottom: 10px;
+	
+}
+
+
+/*版权*/
+.banquan{
+	width:100%;
+	clear:both;
+	font-size:16px;
+	color:#000000;
+	text-align: center;
+	height:40px;
+	background-color:#8B8B8B;
+	padding-top: 20px;
+}
+	       .banquan a{
+		color: #FFFFFF;
+		text-decoration:underline;
+	}
+	       .banquan a:hover{
+		color:#FF7600;
+		border: 2px;
+	    border-bottom: dotted;
+	}
